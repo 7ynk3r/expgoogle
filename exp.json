@@ -1,0 +1,30 @@
+{
+  "name": "expgoogle",
+  "description": "An empty new project",
+  "slug": "expgoogle",
+  "privacy": "public",
+  "sdkVersion": "15.0.0",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "primaryColor": "#cccccc",
+  "icon": "./assets/icons/app.png",
+  "loading": {
+    "icon": "./assets/icons/loading.png",
+    "hideExponentText": false
+  },
+  "packagerOpts": {
+    "assetExts": ["ttf", "mp4"]
+  },
+  "ios": {
+    "supportsTablet": true
+  },
+  "android": {
+    "package": "com.elmaildejuan.expgoogle",
+    "config" : {
+      "googleSignIn": {
+        "apiKey": "AIzaSyB3O2XTbnwj7--t6Xr4LcB4cYY4hov_AhU",
+        "certificateHash": "39704EECBFEEAD67B7C591992EB0CEC618CF0D3B"
+      }
+    }
+  }
+}
