@@ -5,13 +5,13 @@
   "author": null,
   "private": true,
   "main": "main.js",
+  "dependencies": {
+    "expo": "16.0.0",
+    "react": "16.0.0-alpha.6",
+    "react-native": "https://github.com/exponent/react-native/archive/sdk-16.0.0.tar.gz"
+  },
   "scripts": {
     "build:android": "rm -rf build && exp ba && gulp downloadBuild"
-  },
-  "dependencies": {
-    "expo": "^15.0.2",
-    "react": "~15.4.0",
-    "react-native": "https://github.com/exponent/react-native/archive/sdk-15.0.0.tar.gz"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
